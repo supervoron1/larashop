@@ -1,0 +1,20 @@
+{
+    "name": "user/larashop",
+    "require": {
+        "php": ">=7.0",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "raven",
+            "email": "vorontsof@mail.ru"
+        }
+    ]
+}
