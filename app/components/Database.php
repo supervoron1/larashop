@@ -8,10 +8,10 @@ class Database
 {
     public static function connect(): PDO
     {
-        $host = '127.0.0.1:3307';
-        $db = 'larashop';
-        $user = 'root';
-        $pass = '';
+        $host = '37.140.192.12';
+        $db = 'u0835894_shop';
+        $user = 'u0835894_default';
+        $pass = 'T_Vo84i3';
         $charset = 'utf8';
 
         $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
